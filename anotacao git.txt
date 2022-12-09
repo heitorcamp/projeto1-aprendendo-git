@@ -1,0 +1,22 @@
+git add "nome aequivo" - add um arquivo ao controle de versao.
+
+git add . -add todos os arquivos de uma vez
+
+git status - ver os arquivos adicionado no controle de versão
+
+git commit -m "commit inicial" - como se fosse a primeira versao
+
+git remote add origin "link do repositorio no git" - vai definir para onde o codigo vai ser enviado
+
+DEPOIS QUE ALTERAR UM ARQUIVO DEVE SALVAR A MODIFICAÇAO
+
+git add . - para salvar
+
+git commit-m "nome da nova versao" - salvar com nome doque foi adicionado ex: cadastro de usuario.
+
+git push - para enviar a atualizaçao para o github
+
+---------------------------
+
+git reflog - para ver o historico de versoes
+
