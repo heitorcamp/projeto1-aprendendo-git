@@ -1,3 +1,18 @@
+PASSOS A SEREM FEITOS PARA CRIAR E MANIPULAR AS BRACHS
+
+1-git pull da branch principal
+2-Gerar uma nova branch a partir da branch principal
+3-Trabalhar e adiconar novas funcionalidades a nova branch que criou
+4-Finalizar o trabalho na branch q criou
+5-git checkout na branch principal
+6-git pull (para puxar as novas atualizaçao da nuvem)
+7-Mergiar(unir) o codigo da branch temporaria com a branch principal(depois de testar)
+8-git push da branch principal
+
+
+PRINCIPAIS COMANDOS \/
+
+
 git add "nome aequivo" - add um arquivo ao controle de versao.
 
 git add . -add todos os arquivos de uma vez
@@ -32,3 +47,22 @@ git branch - ira mostrar quais branch estao disponiveis no momento
 git branch NOME - ira criar uma nova branch
 
 git checkout NOME A BRANCH QUE DESEJA - ira mudar de branch
+
+
+UNIR OS CODIGOS DA BRANCH PARA TESTE PARA A BRANCH PRINCIPAL
+---------------------------------------
+
+git pull - VAI PUXAR AS ULTIMAS ATUALIZAÇOES DO SERVIDOR(CASO ALGUEM TENHA ALTERADO VC VAI SALVAR EM CIMA DE UMA VERSAO ANTIGA)
+
+git branch - VER AS BRANCH CRIADAS
+
+git checkout master - IR PARA A BRANCH PRINCIPAL
+
+git marge NOME DA BRANCH QUE VC QUER PEGAR O CODIGO.
+(VC DIGITA ESTE COMANDO DA BRENCH PRINCIPAL COM O NOME DA BRANCH Q VC QUER PUXAR.)
+
+CRIAR UMA BANCH APRTIR DA BRANCH PRINCIPAL
+------------------
+git checkout -b 'NOME DA BRANCH NOVA' 'NOME DA BRANCH Q QUER COPIAR'.
+
+
