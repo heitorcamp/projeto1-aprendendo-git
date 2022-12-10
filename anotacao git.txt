@@ -17,6 +17,18 @@ git commit-m "nome da nova versao" - salvar com nome doque foi adicionado ex: ca
 git push - para enviar a atualizaçao para o github
 
 ---------------------------
+NAVERGAR SOBRE AS VERSOES
 
 git reflog - para ver o historico de versoes
 
+git reset --hard NOME DA VERSAO - vai voltar para versao escolhida
+
+BRANCH -"GALHOS"
+----------------------------------
+vc vai ter uma branch principal onde vai armazenar somente codigos q esta funcionando, e tera outras para fazer testes
+
+git branch - ira mostrar quais branch estao disponiveis no momento
+
+git branch NOME - ira criar uma nova branch
+
+git checkout NOME A BRANCH QUE DESEJA - ira mudar de branch
